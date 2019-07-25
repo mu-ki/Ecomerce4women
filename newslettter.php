@@ -20,16 +20,16 @@
                             </div>
 							<ul class="newsletter-follow">
 								<li>
-									<a href="https://github.com/puneethreddyhc"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.facebook.com/aaroonsanju.devaraj"><i class="fa fa-facebook"></i></a>
 								</li>
 								<li>
-									<a href="https://github.com/puneethreddyhc"><i class="fa fa-twitter"></i></a>
+									<a href="https://twitter.com/SanjuAaroon?s=09"><i class="fa fa-twitter"></i></a>
 								</li>
 								<li>
-									<a href="https://github.com/puneethreddyhc"><i class="fa fa-instagram"></i></a>
+									<a href="https://www.instagram.com/p/Bwe00BOj-AxPim4LZpuh1sAzBLlYwszyWGxoWA0/?igshid=3hogf5tcj61b"><i class="fa fa-instagram"></i></a>
 								</li>
 								<li>
-									<a href="https://github.com/puneethreddyhc"><i class="fa fa-github"></i></a>
+									<a href="https://github.com/mu-ki"><i class="fa fa-github"></i></a>
 								</li>
 							</ul>
 						</div>

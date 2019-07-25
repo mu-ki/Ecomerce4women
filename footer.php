@@ -8,11 +8,12 @@
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
 								<h3 class="footer-title">About Us</h3>
-								<p>This is my Small Database Management System mini project</p>
+								<p>This is small site for ladies shopping on door step</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore ,Kumbalagodu</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+91-9535688928</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>puneethreddy951@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Erode,TamilNadu</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+91 9514444471</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+91 9080809758</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>socalledengineers2k20@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -27,7 +28,7 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">PuneethRdddyHC</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This project is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://clashofcash.cf" target="_blank">SoCalledEngineers</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>
@@ -36,11 +37,11 @@
 							<div class="footer">
 								<h3 class="footer-title">Categories</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
-									<li><a href="#">Women</a></li>
-									<li><a href="#">Kids</a></li>
-									<li><a href="#">Accessories</a></li>
+									<li><a href="#">Traditional Wears</a></li>
+									<li><a href="#">Western Wears</a></li>
+									<li><a href="#">Fashion Wears</a></li>
+									<li><a href="#">Cosmetics</a></li>
+									<li><a href="#">MakeUp Items</a></li>
 								</ul>
 							</div>
 						</div>

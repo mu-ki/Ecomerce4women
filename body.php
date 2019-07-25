@@ -64,7 +64,7 @@
 								<img src="./img/shop01.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Laptop<br>Collection</h3>
+								<h3>Saree<br>Collection</h3>
 								<a href="product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
@@ -78,7 +78,7 @@
 								<img src="./img/shop03.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Accessories<br>Collection</h3>
+								<h3>Western<br>Collection</h3>
 								<a href="product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
@@ -92,7 +92,7 @@
 								<img src="./img/shop02.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Cameras<br>Collection</h3>
+								<h3>Cosmetics<br>Collection</h3>
 								<a href="product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
                             </div></a>
@@ -280,10 +280,10 @@
 							<h3 class="title">Top selling</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab2">Formals</a></li>
-									<li><a data-toggle="tab" href="#tab2">Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">T-Shirts</a></li>
-									<li><a data-toggle="tab" href="#tab2">Pants</a></li>
+									<li class="active"><a data-toggle="tab" href="#tab2">traditional wears</a></li>
+									<li><a data-toggle="tab" href="#tab2">Western Wears</a></li>
+									<li><a data-toggle="tab" href="#tab2">Cosmetics</a></li>
+									<li><a data-toggle="tab" href="#tab2">Shoes</a></li>
 								</ul>
 							</div>
 						</div>

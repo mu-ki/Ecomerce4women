@@ -280,7 +280,7 @@
 							<h3 class="title">Top selling</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab2">traditional wears</a></li>
+									<li class="active"><a data-toggle="tab" href="#tab2">Traditional wears</a></li>
 									<li><a data-toggle="tab" href="#tab2">Western Wears</a></li>
 									<li><a data-toggle="tab" href="#tab2">Cosmetics</a></li>
 									<li><a data-toggle="tab" href="#tab2">Shoes</a></li>

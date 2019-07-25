@@ -138,22 +138,26 @@ include "header.php";
 								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">$'.$row['product_price'].'<del class="product-old-price">$990.00</del></h3>
-								<span class="product-available">In Stock</span>
+								<h3 class="product-price">₹'.$row['product_price'].'       <del class="product-old-price">₹990.00</del></h3>
+								<span class="product-available">In Stock</span> 
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<p>'.$row['product_desc'].'</p>
 
 							<div class="product-options">
 								<label>
 									Size
 									<select class="input-select">
-										<option value="0">X</option>
+										<option value="0">S</option>
+										<option value="1">M</option>
+										<option value="2">X</option>
 									</select>
 								</label>
 								<label>
 									Color
 									<select class="input-select">
 										<option value="0">Red</option>
+										<option value="1">Blue</option>
+										<option value="2">Green</option>
 									</select>
 								</label>
 							</div>
@@ -180,9 +184,8 @@ include "header.php";
 							</ul>
 
 							<ul class="product-links">
-								<li>Category:</li>
-								<li><a href="#">Headphones</a></li>
-								<li><a href="#">Accessories</a></li>
+								<li>KeyWords:</li>
+								<li><a href="#">'.$row['product_keywords'].'</a></li>
 							</ul>
 
 							<ul class="product-links">
@@ -226,7 +229,7 @@ include "header.php";
 								<div id="tab1" class="tab-pane fade in active">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										<p>'.$row['product_desc'].'</p>
 										</div>
 									</div>
 								</div>
@@ -236,7 +239,7 @@ include "header.php";
 								<div id="tab2" class="tab-pane fade in">
 									<div class="row">
 										<div class="col-md-12">
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										<p>'.$row['product_desc'].'</p>
 										</div>
 									</div>
 								</div>
@@ -335,8 +338,8 @@ include "header.php";
 												<ul class="reviews">
 													<li>
 														<div class="review-heading">
-															<h5 class="name">John</h5>
-															<p class="date">27 DEC 2018, 8:0 PM</p>
+															<h5 class="name">Muki</h5>
+															<p class="date">11 NOV 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -346,13 +349,13 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+														<p>'.$row['product_desc'].'</p>
 														</div>
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">John</h5>
-															<p class="date">27 DEC 2018, 8:0 PM</p>
+															<h5 class="name">Sanju</h5>
+															<p class="date">2 DEC 2018, 7:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -362,13 +365,13 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+														<p>'.$row['product_desc'].'</p>
 														</div>
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">John</h5>
-															<p class="date">27 DEC 2018, 8:0 PM</p>
+															<h5 class="name">Vivek</h5>
+															<p class="date">27 JAN 2019, 10:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -378,7 +381,7 @@ include "header.php";
 															</div>
 														</div>
 														<div class="review-body">
-															<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+														<p>'.$row['product_desc'].'</p>
 														</div>
 													</li>
 												</ul>
@@ -467,7 +470,6 @@ include "header.php";
                         $cat_name = $row["cat_title"];
 
                         echo "
-				
                         
                                 <div class='col-md-3 col-xs-6'>
 								<a href='product.php?p=$pro_id'><div class='product'>
@@ -481,7 +483,7 @@ include "header.php";
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>₹ $pro_price        <del class='product-old-price'>₹990.00</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>

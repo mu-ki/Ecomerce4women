@@ -347,7 +347,7 @@ if (isset($_POST["Common"])) {
             
             echo '<div class="cart-summary">
 				    <small class="qty">'.$n.' Item(s) selected</small>
-				    <h5>$'.$total_price.'</h5>
+				    <h5>₹'.$total_price.'</h5>
 				</div>'
             ?>
 				
@@ -371,9 +371,9 @@ if (isset($_POST["Common"])) {
     				<thead>
 						<tr>
 							<th style="width:50%">Product</th>
-							<th style="width:10%">Price</th>
+							<th style="width:10%">Price  ₹</th>
 							<th style="width:8%">Quantity</th>
-							<th style="width:7%" class="text-center">Subtotal</th>
+							<th style="width:7%" class="text-center">Subtotal  ₹</th>
 							<th style="width:10%"></th>
 						</tr>
 					</thead>
@@ -401,7 +401,6 @@ if (isset($_POST["Common"])) {
 									</div>
 									<div class="col-sm-6">
 										<div style="max-width=50px;">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
 										</div>
 									</div>
 									
@@ -454,7 +453,7 @@ if (isset($_POST["Common"])) {
 					
 						<form action="checkout.php" method="post">
 							<input type="hidden" name="cmd" value="_cart">
-							<input type="hidden" name="business" value="shoppingcart@puneeth.com">
+							<input type="hidden" name="business" value="shoppingcart@muki.com">
 							<input type="hidden" name="upload" value="1">';
 							  
 							$x=0;

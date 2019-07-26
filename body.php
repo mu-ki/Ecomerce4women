@@ -73,13 +73,13 @@
 
 					<!-- shop -->
 					<div class="col-md-4 col-xs-6">
-						<a href="product.php?p=72"><div class="shop">
+						<a href="product.php?p=105"><div class="shop">
 							<div class="shop-img">
 								<img src="./img/shop03.png" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Western<br>Collection</h3>
-								<a href="product.php?p=72" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=105" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
 					</div>

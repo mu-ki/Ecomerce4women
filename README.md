@@ -1,6 +1,4 @@
-# online-shopping-with-advanced-admin-page
-Updated version
-
+Live Demo at http://goladygo.tk/
 
 online shopping system is a [DBMS project] with both admin and user layouts.
 

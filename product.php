@@ -37,7 +37,7 @@ include "header.php";
 		// disables backspace on page except on input fields and textarea..
 		document.body.onkeydown = function (e) {
             var elm = e.target.nodeName.toLowerCase();
-            if (e.which === 84 && (elm !== 'input' && elm  !== 'textarea')) {
+            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
                 e.preventDefault();
             }
             // stopping event bubbling up the DOM tree..
@@ -65,7 +65,7 @@ include "header.php";
 									die("Connection failed: " . mysqli_connect_error());
 								}
 								$result = mysqli_query($con, $sql);
-								if (mysqli_num_rows($result) > 84) 
+								if (mysqli_num_rows($result) > 0) 
 								{
 									while($row = mysqli_fetch_assoc($result)) 
 									{
@@ -138,8 +138,8 @@ include "header.php";
 								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">₹'.$row['product_price'].'<del class="product-old-price">₹990.00</del></h3>
-								<span class="product-available">In Stock</span> 
+								<h3 class="product-price">₹'.$row['product_price'].'<del class="product-old-price">₹   990.00</del></h3>
+								<span class="product-available">In Stock</span>
 							</div>
 							<p>'.$row['product_desc'].'</p>
 
@@ -147,17 +147,19 @@ include "header.php";
 								<label>
 									Size
 									<select class="input-select">
-										<option value="0">S</option>
-										<option value="1">M</option>
-										<option value="2">X</option>
+									<option value="0">X</option>
+									<option value="0">M</option>
+									<option value="0">S</option>
 									</select>
 								</label>
 								<label>
 									Color
 									<select class="input-select">
 										<option value="0">Red</option>
-										<option value="1">Blue</option>
-										<option value="2">Green</option>
+										<option value="0">Blue</option>
+										<option value="0">Green</option>
+
+
 									</select>
 								</label>
 							</div>
@@ -172,7 +174,7 @@ include "header.php";
 									</div>
 								</div>
 								<div class="btn-group" style="margin-left: 25px; margin-top: 15px">
-								<button class="add-to-cart-btn" pid="'.$row['product_id'].'"  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
+								<button class="add-to-cart-btn" pid="'.$row['product_id'].'        "  id="product" ><i class="fa fa-shopping-cart"></i> add to cart</button>
                                 </div>
 								
 								
@@ -184,16 +186,17 @@ include "header.php";
 							</ul>
 
 							<ul class="product-links">
-								<li>KeyWords:</li>
-								<li><a href="#">'.$row['product_keywords'].'</a></li>
+								<li>Category:</li>
+								<li><a href="#">Womens Cloths</a></li>
+								<li><a href="#">All</a></li>
 							</ul>
 
 							<ul class="product-links">
 								<li>Share:</li>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#"><i class="fa fa-envelope"></i></a></li>
+								<li><a href="https://fb.com/"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="https://googleplus.com"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="https://envelope.com"><i class="fa fa-envelope"></i></a></li>
 							</ul>
 
 						</div>
@@ -338,8 +341,8 @@ include "header.php";
 												<ul class="reviews">
 													<li>
 														<div class="review-heading">
-															<h5 class="name">Muki</h5>
-															<p class="date">11 NOV 2018, 8:0 PM</p>
+															<h5 class="name">John</h5>
+															<p class="date">27 DEC 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -354,8 +357,8 @@ include "header.php";
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">Sanju</h5>
-															<p class="date">2 DEC 2018, 7:0 PM</p>
+															<h5 class="name">John</h5>
+															<p class="date">27 DEC 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -370,8 +373,8 @@ include "header.php";
 													</li>
 													<li>
 														<div class="review-heading">
-															<h5 class="name">Vivek</h5>
-															<p class="date">27 JAN 2019, 10:0 PM</p>
+															<h5 class="name">John</h5>
+															<p class="date">27 DEC 2018, 8:0 PM</p>
 															<div class="review-rating">
 																<i class="fa fa-star"></i>
 																<i class="fa fa-star"></i>
@@ -470,6 +473,7 @@ include "header.php";
                         $cat_name = $row["cat_title"];
 
                         echo "
+				
                         
                                 <div class='col-md-3 col-xs-6'>
 								<a href='product.php?p=$pro_id'><div class='product'>
@@ -483,7 +487,7 @@ include "header.php";
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>₹ $pro_price        <del class='product-old-price'>₹990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>₹  990.00</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>
@@ -498,7 +502,9 @@ include "header.php";
 										</div>
 									</div>
 									<div class='add-to-cart'>
-										<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+									<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='#'><i class='fa fa-shopping-cart'></i> add to cart</button>
+
+									<button pid='$pro_id' id='product' class='add-to-cart-btn block2-btn-towishlist' href='fb.com'><i class='fa fa-shopping-cart'></i> Share</button>
 									</div>
 								</div>
                                 </div>

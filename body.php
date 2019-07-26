@@ -78,7 +78,7 @@
 								<img src="./img/shop03.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Western<br>Collection</h3>
+								<h3>Cosmetics<br>Collection</h3>
 								<a href="product.php?p=105" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
@@ -87,13 +87,13 @@
 
 					<!-- shop -->
 					<div class="col-md-4 col-xs-6">
-						<a href="product.php?p=79"><div class="shop">
+						<a href="product.php?p=94"><div class="shop">
 							<div class="shop-img">
 								<img src="./img/shop02.png" alt="">
 							</div>
 							<div class="shop-body">
-								<h3>Cosmetics<br>Collection</h3>
-								<a href="product.php?p=79" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<h3>Western<br>Collection</h3>
+								<a href="product.php?p=94" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
                             </div></a>
 					</div>

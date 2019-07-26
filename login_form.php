@@ -52,6 +52,9 @@ if (isset($_POST["login_user_with_product"])) {
                                     </div>
                                     
                                         <input class="primary-btn btn-block"   type="submit"  Value="Login">
+										<br>
+										<a href =""><input class="primary-btn btn-block"    Value="Login USing Facebook"></a>
+
                                         
                                         <div class="panel-footer"><div class="alert alert-danger"><h4 id="e_msg"></h4></div></div>
                                     

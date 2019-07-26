@@ -202,8 +202,7 @@ span.price {
 				<input type="hidden" name="total_count" value="'.$total_count.'">
 					<input type="hidden" name="total_price" value="'.$total.'">
 					
-					<input type="submit" id="submit" value="Continue to checkout" class="checkout-btn">
-				</form>
+					<input type="submit" id="submit"  class="checkout-btn"><a href="https://airtable.com/tblJ7Z9ryF52RwERj/viwZd2npW0CNDR7hd/recTX9Iboe6YtKiYf">Continue to checkout</a>	</form>
 				</div>
 			</div>
 			';
@@ -291,16 +290,16 @@ span.price {
 							</form>
 							<ul class="newsletter-follow">
 								<li>
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="https://fb.com"><i class="fa fa-facebook"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fa fa-twitter"></i></a>
+									<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fa fa-instagram"></i></a>
+									<a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
+									<a href="https://pintrest.com"><i class="fa fa-pinterest"></i></a>
 								</li>
 							</ul>
 						</div>

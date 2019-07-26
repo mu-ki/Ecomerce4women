@@ -69,17 +69,17 @@ session_start();
 
         }
         #footer {
-            background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #ec15c8;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #348AC7, #ec15c8);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #348AC7, #ec15c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
           color: #1E1F29;
         }
         #bottom-footer {
-            background: #7474BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #ec15c8;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #348AC7, #ec15c8);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #348AC7, #ec15c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           
 
         }

@@ -13,7 +13,7 @@
 									<li><a href="#"><i class="fa fa-map-marker"></i>Erode,TamilNadu</a></li>
 									<li><a href="#"><i class="fa fa-phone"></i>+91 9514444471</a></li>
 									<li><a href="#"><i class="fa fa-phone"></i>+91 9080809758</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>socalledengineers2k20@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>socalledengineers@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>

@@ -75,6 +75,12 @@
               <p>Logout</p>
             </a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="http://tax.mynonprofit.net/">
+              <i class="material-icons">Tax Calc</i>
+              <p>TaxCalc1</p>
+            </a>
+          </li>
           <!-- <li class="nav-item active-pro ">
                 <a class="nav-link" href="./upgrade.html">
                     <i class="material-icons">unarchive</i>

@@ -11,7 +11,7 @@ session_start();
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>GoLadyGo</title>
+		 <title>GoLadyGo</title></a>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
@@ -178,7 +178,7 @@ session_start();
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="#" class="logo">
+								<a href="index.php" class="logo">
 								<!-- <img src="img/capture.png"> -->
 								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
                                         GoLadyGo
@@ -195,8 +195,11 @@ session_start();
 								<form>
 									<select class="input-select">
 										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
+										<option value="1">Traditional</option>
+										<option value="1">Western</option>
+										<option value="1">Cosmetics</option>
+										<option value="1">Kids Wear</option>
+										<option value="1">Sports Wear</option>
 									</select>
 									<input class="input" id="search" type="text" placeholder="Search here">
 									<button type="submit" id="search_btn" class="search-btn">Search</button>

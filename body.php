@@ -59,13 +59,13 @@
 				<div class="row">
 					<!-- shop -->
 					<div class="col-md-4 col-xs-6">
-						<a href="product.php?p=78"><div class="shop">
+						<a href="product.php?p=85"><div class="shop">
 							<div class="shop-img">
 								<img src="./img/shop01.png" alt="">
 							</div>
 							<div class="shop-body">
 								<h3>Saree<br>Collection</h3>
-								<a href="product.php?p=78" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+								<a href="product.php?p=85" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
 					</div>
@@ -396,22 +396,16 @@
 								
 								<!-- product widget -->
 							</div>
-							<div id="get_product_home">
-								<!-- product widget -->
-								
-								<!-- product widget -->
-							</div>
-
 							<div id="get_product_home2">
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src=".$row['product_image']." alt="">
+										<img src="./img/product01.png" alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">.$row['product_title'].</a></h3>
-										<h4 class="product-price">₹.$row['product_price']. <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Black Fog</a></h3>
+										<h4 class="product-price">₹   490.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -423,8 +417,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Barby Blue</a></h3>
+										<h4 class="product-price">₹   420.00      <del class="product-old-price">₹    910.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -436,8 +430,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Tops Shirt</a></h3>
+										<h4 class="product-price">₹   799.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -462,8 +456,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Lady Caress</a></h3>
+										<h4 class="product-price">₹   670.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -475,8 +469,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Blue Barby</a></h3>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    890.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -488,8 +482,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Gown Long</a></h3>
+										<h4 class="product-price">₹   330.00      <del class="product-old-price">₹    890.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -503,8 +497,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Shirt dress</a></h3>
+										<h4 class="product-price">₹   760.00      <del class="product-old-price">₹    890.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -516,8 +510,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">Tops oner</a></h3>
+										<h4 class="product-price">₹   999.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -529,8 +523,8 @@
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h3 class="product-name"><a href="#">White tops</a></h3>
+										<h4 class="product-price">₹   780.00      <del class="product-old-price">₹    990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -560,7 +554,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -573,7 +567,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -586,7 +580,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -601,7 +595,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -615,7 +609,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -628,7 +622,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
+										<h4 class="product-price">₹   980.00      <del class="product-old-price">₹    1390.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->

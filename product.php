@@ -37,7 +37,7 @@ include "header.php";
 		// disables backspace on page except on input fields and textarea..
 		document.body.onkeydown = function (e) {
             var elm = e.target.nodeName.toLowerCase();
-            if (e.which === 8 && (elm !== 'input' && elm  !== 'textarea')) {
+            if (e.which === 84 && (elm !== 'input' && elm  !== 'textarea')) {
                 e.preventDefault();
             }
             // stopping event bubbling up the DOM tree..
@@ -65,7 +65,7 @@ include "header.php";
 									die("Connection failed: " . mysqli_connect_error());
 								}
 								$result = mysqli_query($con, $sql);
-								if (mysqli_num_rows($result) > 0) 
+								if (mysqli_num_rows($result) > 84) 
 								{
 									while($row = mysqli_fetch_assoc($result)) 
 									{
@@ -138,7 +138,7 @@ include "header.php";
 								<a class="review-link" href="#review-form">10 Review(s) | Add your review</a>
 							</div>
 							<div>
-								<h3 class="product-price">₹'.$row['product_price'].'       <del class="product-old-price">₹990.00</del></h3>
+								<h3 class="product-price">₹'.$row['product_price'].'<del class="product-old-price">₹990.00</del></h3>
 								<span class="product-available">In Stock</span> 
 							</div>
 							<p>'.$row['product_desc'].'</p>

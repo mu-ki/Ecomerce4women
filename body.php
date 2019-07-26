@@ -120,10 +120,10 @@
 							<h3 class="title">New Products</h3>
 							<div class="section-nav">
 								<ul class="section-tab-nav tab-nav">
-									<li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
-									<li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
-									<li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-									<li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+									<li class="active"><a data-toggle="tab" href="#tab1">Traditional Wears</a></li>
+									<li><a data-toggle="tab" href="#tab1">Western Wears</a></li>
+									<li><a data-toggle="tab" href="#tab1">Cosmetics</a></li>
+									<li><a data-toggle="tab" href="#tab1">MakeUp Items</a></li>
 								</ul>
 							</div>
 						</div>
@@ -142,7 +142,7 @@
                     include 'db.php';
 								
                     
-					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 70 AND 75";
+					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 1 AND 89";
                 $run_query = mysqli_query($con,$product_query);
                 if(mysqli_num_rows($run_query) > 0){
 
@@ -171,7 +171,7 @@
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>₹      $pro_price      <del class='product-old-price'>₹990.00</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>
@@ -302,7 +302,7 @@
                     include 'db.php';
 								
                     
-					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 59 AND 65";
+					$product_query = "SELECT * FROM products,categories WHERE product_cat=cat_id AND product_id BETWEEN 88 AND 95";
                 $run_query = mysqli_query($con,$product_query);
                 if(mysqli_num_rows($run_query) > 0){
 
@@ -331,7 +331,7 @@
 									<div class='product-body'>
 										<p class='product-category'>$cat_name</p>
 										<h3 class='product-name header-cart-item-name'><a href='product.php?p=$pro_id'>$pro_title</a></h3>
-										<h4 class='product-price header-cart-item-info'>$pro_price<del class='product-old-price'>$990.00</del></h4>
+										<h4 class='product-price header-cart-item-info'>₹      $pro_price      <del class='product-old-price'>₹990.00</del></h4>
 										<div class='product-rating'>
 											<i class='fa fa-star'></i>
 											<i class='fa fa-star'></i>
@@ -396,17 +396,22 @@
 								
 								<!-- product widget -->
 							</div>
+							<div id="get_product_home">
+								<!-- product widget -->
+								
+								<!-- product widget -->
+							</div>
 
 							<div id="get_product_home2">
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src=".$row['product_image']." alt="">
 									</div>
 									<div class="product-body">
 										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h3 class="product-name"><a href="#">.$row['product_title'].</a></h3>
+										<h4 class="product-price">₹.$row['product_price']. <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -419,7 +424,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -432,7 +437,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -458,7 +463,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -471,7 +476,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -484,7 +489,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -499,7 +504,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -512,7 +517,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -525,7 +530,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -555,7 +560,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -568,7 +573,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -581,7 +586,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
@@ -596,7 +601,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -610,7 +615,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- /product widget -->
@@ -623,7 +628,7 @@
 									<div class="product-body">
 										<p class="product-category">Category</p>
 										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
+										<h4 class="product-price">$980.00 <del class="product-old-price">₹990.00</del></h4>
 									</div>
 								</div>
 								<!-- product widget -->
